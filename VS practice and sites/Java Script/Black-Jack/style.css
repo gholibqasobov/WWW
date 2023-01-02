@@ -1,0 +1,60 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: darkgreen;
+    padding: 1em;
+}
+
+.box {
+    background-color: green;
+    padding: 2em 1em;
+    border: 2px solid rgb(2, 80, 2);
+    border-radius: 8px;
+}
+
+
+h1, h2, p{
+    padding: 0 1em;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    color: goldenrod;
+}
+
+h2, p{
+    color: #fff;
+}
+/* 
+h2{
+    max-width: 20ch;
+} */
+
+button{
+    min-width: 80%;
+    background-color: goldenrod;
+    margin: 4px auto;
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+    color: darkgreen;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: .1s;
+}
+button:active {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px lightgray;
+}
+
+@media (min-width: 60rem) {
+    .box{
+        width: 25rem;
+    }
+}
